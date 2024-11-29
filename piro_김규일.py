@@ -2,7 +2,7 @@ import random
 import time
 
 class Character:
-    # 생성자
+    # Charactor 생성자
     def __init__(self, name, hair, clothes, shoes):
         self.name = name
         self.hair = hair
@@ -247,7 +247,7 @@ class DetectiveGame:
             self.flag = False
             return
             
-    # 게임 재시작 메서드
+    # 변수 초기화
     def set_game(self):
         self.lives = 2 # 남은 목숨
         self.suspect = None # 용의자
